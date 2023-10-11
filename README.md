@@ -49,9 +49,9 @@ To use the Calculator:
    npm start
    ```
 
-5. Open your web browser and access the development server's URL (http://localhost:3000) to view and use the Drum Machine.
+5. Open your web browser and access the development server's URL (http://localhost:3000) to view and use the Calculator.
 
-6. Click on the drum pads with your mouse or use the keyboard to trigger sounds.
+6. Click on the keypads with your mouse to input numbers and perform operations.
 
 ## License
 
