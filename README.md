@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This calculator project is part of my entries to the FreeCodeCamp Frontend Development Libraries Certification and aims to provide a simplified approach, functionally similar to the [Javascript Calculator example](https://javascript-calculator.freecodecamp.rocks/).
 
-In the project directory, you can run:
+### Stack
 
-### `npm start`
+- **Frontend Framework:** React
+- **Styling:** Tailwind CSS (with custom classes)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### UI Style
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Glassmorphism
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division on numbers with support for negative values.
 
-### `npm run build`
+2. **Decimal Precision**: The calculator provides several decimal places of precision, ensuring accurate results, even in complex calculations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Clear and Reset**: Easily reset the calculator to its initial state by pressing the "Clear" button. This clears both input and output values, displaying 0.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Consecutive Operator Handling**: If two or more operators are entered consecutively, the calculator accurately follows the order of operation precedence and performs the last operation entered.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **User-Friendly Interface**: The user interface includes clickable elements for numbers 0-9, arithmetic operators, a decimal point, and an equal sign, making it intuitive for users to input and evaluate expressions.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To use the Calculator:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository to your local machine.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/RifkiSalim/FCC-Cert_Calculator.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project folder.
 
-## Learn More
+3. Install project dependencies.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server.
 
-### Code Splitting
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. Open your web browser and access the development server's URL (http://localhost:3000) to view and use the Drum Machine.
 
-### Analyzing the Bundle Size
+6. Click on the drum pads with your mouse or use the keyboard to trigger sounds.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+Please consult [LICENSE.md](LICENSE.md) for information on how this project is licensed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you have any questions or suggestions, please feel free to contact me.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Cheers!<br>
+Rifki Salim
